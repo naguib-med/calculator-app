@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#calculator {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+button, input {
+    padding: 20px;
+    font-size: 18px;
+}
